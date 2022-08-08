@@ -1,0 +1,66 @@
+.mainContainer {
+	padding: 10px;
+}
+
+.titleContainer {
+	margin: 20px auto;
+	text-align: center !important;
+}
+
+.mainTitle {
+	font-size: 26px !important;
+}
+
+.subTitle {
+	color: #555;
+	font-size: 20px !important;
+	font-weight: 500 !important;
+}
+
+.imageList {
+	margin: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: nowrap;
+}
+
+.imageDiv {
+	position: relative;
+}
+
+.imageDiv img {
+	height: 250px;
+	width: 250px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 250px;
+	width: 250px;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.overlay:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.overlayIcon {
+	color: #f5f5f5 !important;
+	font-size: 28px !important;
+}
+
+
+@media (max-width: 960px) {
+	.imageList {
+		flex-wrap: wrap;
+	}
+}

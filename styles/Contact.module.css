@@ -1,0 +1,62 @@
+.parent_container {
+	margin: 2rem 0;
+}
+
+.branchList {
+	padding: 24px 0;
+}
+
+.mapCard {
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	padding: 10px;
+}
+
+.branchCard {
+	min-height: 180px;
+	border-top: 2px solid #fcc101;
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	padding: 10px;
+}
+
+.addressText {
+	margin: 50px 0;
+	font-size: 1.2rem;
+}
+
+.location_filter {
+	background: #ededed;
+	width: 100%;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 4px;
+}
+
+.location_filter_r {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.formControl {
+	margin-top: 16px;
+	min-width: 170px;
+}
+
+.form_parent_container {
+	margin: 2rem 0;
+}
+
+.form_outer {
+	margin: 2rem 0;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+		rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+	padding: 2rem;
+	border-radius: 3px;
+}
+
+@media (max-width: 960px) {
+	.form_outer{
+		padding:1rem 0.5rem;
+	}
+}

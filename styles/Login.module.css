@@ -1,0 +1,114 @@
+.parent_card {
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+	border-radius: 2px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	margin:2rem 0;
+}
+
+.left_container {
+	background-color: #fafafa;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+.image {
+	width: 90%;
+	height: auto;
+	object-fit: cover;
+}
+
+.right_container {
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	flex-flow: column nowrap;
+}
+
+.textField {
+	width: 100%;
+}
+
+.info {
+	font-size: 16px;
+	padding: 7px 0;
+	border-top:1px solid #e6e6e6;
+	margin-top: 18px;
+	width: 90%;
+	text-align: center;
+	font-weight: 500;
+}
+
+.forgetPasswordModal{
+	padding:7px;
+	width: 30vw;
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border-radius: 2px;
+}
+
+
+.social_login_container{
+	display: flex;
+	justify-content: center;
+	font-weight: 500;
+	flex-direction: column;
+	text-align: center;
+	margin-top:10px;
+}
+
+@media (max-width: 960px) {
+	.parent_card {
+		padding: 0;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+		width: 100%;
+	}
+
+	.left_container {
+		background-color: #fafafa;
+		width: 100%;
+	}
+
+	.image {
+		width: 80%;
+		height: auto;
+	}
+
+	.right_container {
+		width: 100%;
+		padding: 2rem 1rem;
+	}
+
+	.form {
+		width: 90%;
+	}
+	.info {
+		font-size: 1rem;
+		padding: 0.5rem 0;
+	}
+
+	.forgetPasswordModal{
+		padding:7px;
+		width: 80vw;
+		top:50%;
+		left:50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		border-radius: 2px;
+	}
+}

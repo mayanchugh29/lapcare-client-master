@@ -1,0 +1,404 @@
+.order_details_page {
+	margin: 2rem 0;
+}
+
+.order_status_card {
+	margin-top: 2rem;
+	padding: 1rem;
+	border-radius: 2px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.order_details_container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cards {
+	width: 25%;
+	margin: 2rem 0;
+	padding: 1rem;
+	font-size: 0.95rem;
+	line-height: 1.5;
+	border-radius: 2px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.pricing_info_container {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.3rem 0.5rem;
+}
+
+.product_container {
+	margin: 1rem 0;
+}
+
+.product {
+	display: flex;
+	justify-content: space-around;
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+	border-bottom: 1px solid #e6e6e6;
+	align-items: center;
+}
+
+.product_image {
+	height: 100;
+	width: 100;
+}
+
+.order_tracking_parent_container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-top: 18px;
+	padding-bottom: 14px;
+}
+
+.check_icon {
+	display: block;
+	position: relative;
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	margin: 0 auto;
+	transition: background 0.25s linear;
+	-webkit-transition: background 0.25s linear;
+	z-index: 2;
+	border-color: #27aa80;
+	border-width: 0px;
+	background-color: #27aa80;
+}
+
+.check_icon_return {
+	display: block;
+	position: relative;
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	margin: 0 auto;
+	transition: background 0.25s linear;
+	-webkit-transition: background 0.25s linear;
+	z-index: 2;
+	border-color: #FF9F00;
+	border-width: 0px;
+	background-color: #FF9F00;
+}
+
+.unchecked_icon {
+	display: block;
+	position: relative;
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	margin: 0 auto;
+	transition: background 0.25s linear;
+	-webkit-transition: background 0.25s linear;
+	z-index: 2;
+	border-color: transparent;
+	border-width: 0px;
+	background-color: rgb(223, 221, 221);
+}
+
+
+
+.order_status_complete {
+	text-align: center;
+	width: 14%;
+	position: relative;
+	display: block;
+	color: black;
+}
+
+.order_status_complete::before {
+	content: "";
+	display: block;
+	height: 2.5px;
+	width: calc(100% - 20px);
+	background-color: #27aa80;
+	top: 7px;
+	position: absolute;
+	left: calc(-50% + 10px);
+	z-index: 0;
+}
+
+.order_status_incomplete {
+	text-align: center;
+	width: 14%;
+	position: relative;
+	display: block;
+	color: #a4a4a4;
+}
+.order_status_incomplete::before {
+	content: "";
+	display: block;
+	height: 2.5px;
+	width: calc(100% - 20px);
+	background-color: rgb(223, 221, 221);
+	top: 7px;
+	position: absolute;
+	left: calc(-50% + 10px);
+	z-index: 0;
+}
+
+.order_status_return_complete {
+	text-align: center;
+	width: 14%;
+	position: relative;
+	display: block;
+	color: black;
+}
+
+.order_status_return_complete::before {
+	content: "";
+	display: block;
+	height: 2.5px;
+	width: calc(100% - 20px);
+	background-color: #FF9F00;
+	top: 7px;
+	position: absolute;
+	left: calc(-50% + 10px);
+	z-index: 0;
+}
+
+
+.order_status_text {
+	font-size: 14px;
+	margin-top: 0.5rem;
+	line-height: 20px;
+	font-weight: 500;
+}
+
+.order_status_date {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.order_tracking_container_sm {
+	display: none;
+	visibility: hidden;
+}
+
+
+
+.order_status_complete:first-child::before {
+	display: none;
+}
+
+
+.cancelled_icon {
+	display: block;
+	position: relative;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	margin: 0 auto;
+	transition: background 0.25s linear;
+	-webkit-transition: background 0.25s linear;
+	z-index: 2;
+	border-color: transparent;
+	border-width: 0px;
+	background-color: #fff;
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 500;
+	text-align: center;
+} 
+
+.order_status_paymentFailed {
+	text-align: center;
+	width: 20%;
+	position: relative;
+	display: block;
+	color: #a4a4a4;
+}
+
+
+.orderCancelledContainer {
+	background-color: #ff6161;
+	padding: 10px 20px;
+	border-radius: 4px;
+	min-width: 40%;
+	text-align: center;
+	color: #fff;
+}
+
+.paymentFailedContainer{
+	border: 2px solid #fcc101;
+	margin: 20px auto;
+	padding:10px 20px;
+	border-radius: 4px ;
+	max-width: 60%;
+	text-align: center;
+	font-weight: 500;
+	color: grey;
+}
+
+
+
+.product_name{
+	font-weight: 500;
+	width: 50%;
+	text-align: left;
+	color: rgb(104, 104, 104);
+	font-size: 0.9rem;
+}
+
+.product_cost{
+	font-weight: 500;
+	width:10%;
+	text-align: left;
+}
+
+@media (max-width: 960px) {
+	.order_details_page {
+		margin: 1rem;
+	}
+	.order_details_container {
+		flex-flow: column nowrap;
+	}
+
+	.cards {
+		margin: 1rem 0;
+		padding: 1rem;
+		width: 100%;
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+	.product_container {
+		margin: 1rem 0;
+	}
+
+	.product {
+		font-size: 1rem;
+		padding: 0.5rem;
+		flex-flow: column wrap;
+		align-items: center;
+		justify-content: center;
+		border: none;
+		box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+	}
+
+	.product_name {
+		font-size: 1rem;
+		font-weight: 500;
+		color: rgb(167, 167, 167);
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: block;
+		width: 95%;
+		text-align: center;
+	}
+
+	.product_cost {
+		font-size: 1.3rem;
+		font-weight: 500;
+		line-height: 2;
+		text-align: center;
+		width: 50%;
+	}
+
+	.order_tracking_parent_container {
+		display: none;
+		visibility: hidden;
+	}
+
+	.order_tracking_container_sm {
+		display: block;
+		visibility: visible;
+	}
+	.order_track {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.order_track_step {
+		display: flex;
+		height: 5rem;
+	}
+
+	.order_track_step:last-child {
+		overflow: hidden;
+		height: 4rem;
+	}
+
+	.order_track_step:last-child .order_track_status span:last-of-type {
+		display: none;
+	}
+
+	.order_track_status {
+		margin-right: 1.5rem;
+		position: relative;
+	}
+
+	.check_icon {
+		position: static;
+		height: 15px;
+		width: 15px;
+	}
+
+	.check_icon_return {
+		position: static;
+		height: 15px;
+		width: 15px;
+	}
+
+	.unchecked_icon {
+		position: static;
+		height: 15px;
+		width: 15px;
+	}
+
+	.cancelled_icon {
+		position: static;
+		height: 30px;
+		width: 30px;
+	}
+
+	.order_track_status_line {
+		display: block;
+		margin: 0 auto;
+		width: 2px;
+		height: 5rem;
+		background: #27aa80;
+	}
+
+	.order_track_status_return_line {
+		display: block;
+		margin: 0 auto;
+		width: 2px;
+		height: 5rem;
+		background: #fcc101;
+	}
+
+	.order_track_status_line_incomplete {
+		display: block;
+		margin: 0 auto;
+		width: 2px;
+		height: 5rem;
+		background: rgb(223, 221, 221);
+	}
+
+	.order_track_text_stat {
+		font-size: 15px;
+		font-weight: 500;
+		margin-bottom: 3px;
+	}
+
+	.order_track_text_sub {
+		font-size: 15px;
+		font-weight: 500;
+	}
+
+	.order_track {
+		transition: all 0.3s height 0.3s;
+		transform-origin: top center;
+	}
+
+	.paymentFailedContainer{
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,13 @@
+.testimonials_outer {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.testimonials_outer .slide_item {
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+.slider_outer {
+	max-width: 100%;
+}

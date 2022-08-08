@@ -1,0 +1,42 @@
+.product_container {
+  padding: 0;
+  height: 100%;
+}
+
+
+.product_inn {
+  /* box-shadow: 0 5px 15px rgb(0 0 0 / 10%); */
+  padding: 15px;
+  height: 100%;
+  transition: all 0.3s;
+}
+
+
+.product_pic_outer {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 16px rgb(0 0 0 / 6%);
+  margin-bottom: 15px;
+}
+
+.product_pic_outer img {
+  max-width: 100%;
+}
+
+.product_inn:hover {
+  transform: translateY(-10px);
+}
+
+
+@media (max-width: 960px) {
+
+  .product_container {
+    padding: 15px 0px !important;
+  }
+
+  .product_inn {
+    padding: 10px !important;
+
+  }
+
+}

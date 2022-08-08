@@ -1,0 +1,36 @@
+.breadcrumb_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--theme_color1);
+    padding: 0.5rem 0;
+
+
+}
+
+.breadcrumb_container nav {
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: start;
+    justify-content: center;
+}
+
+.breadcrumb_container nav a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #232323;
+
+}
+
+@media (max-width: 960px) {
+    .breadcrumb_container {
+        padding: 0.3rem 0;
+        justify-content: center;
+    }
+
+
+    .breadcrumb_container nav a {
+        font-size: 18px;
+    }
+}

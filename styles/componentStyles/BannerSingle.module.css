@@ -1,0 +1,16 @@
+.banner_single img {
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .banner_single{
+      padding:55px 0px 0 0 !important;
+  }
+  
+
+
+  @media (max-width:1240px){
+    .banner_single{
+        padding:45px 0px 0 0 !important;
+    }
+  }

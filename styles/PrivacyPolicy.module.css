@@ -1,0 +1,27 @@
+.mainContainer {
+	padding: 40px 0;
+}
+
+.title {
+	margin: 30px 0;
+}
+
+.title h3 {
+	font-weight: 600;
+}
+
+.content {
+	margin: 2px 0;
+}
+
+.content p {
+	line-height: 1.5rem;
+}
+
+.subTitle {
+	margin: 20px 0 0;
+}
+
+.subTitle h6 {
+	font-weight: 600;
+}

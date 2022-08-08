@@ -1,0 +1,36 @@
+.parent_container {
+	margin: 2rem 0;
+}
+
+.branchList {
+	padding: 20px 0;
+}
+
+
+.branchCard {
+	min-height: 210px;
+	border-top: 2px solid #fcc101;
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	padding: 10px;
+}
+
+.addressText {
+	margin: 50px 0;
+	font-size: 1.2rem;
+}
+
+.location_filter {
+	background: #ededed;
+	width: 100%;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 4px;
+}
+
+.location_filter_r {
+	display: flex;
+	justify-content: flex-end;
+}
+

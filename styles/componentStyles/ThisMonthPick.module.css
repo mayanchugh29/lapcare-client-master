@@ -1,0 +1,77 @@
+
+.appbar_container {
+  max-width: 100%;
+  width: 1040px;
+  padding-left: 20px !important;
+}
+
+.this_month_tab_outer .tabs_inn {
+  display: flex;
+  justify-content: center;
+}
+
+.this_month_tabpanel{
+  padding: 1rem;
+}
+
+.this_month_tab_outer .this_month_appbar {
+  box-shadow: none;
+  z-index: 1;
+  background: #fff;
+  border: 1px solid #ededed;
+  border-radius: 30px;
+  width: 900px;
+  max-width: 100%;
+}
+
+.this_month_tab_outer .tabs_inn .tab_item {
+  font-size: 15px;
+  padding: 7px 8px;
+  margin: 0 auto;
+  border-radius: 5px 5px 0 0;
+  min-width: 140px;
+}
+.bannerimg img,.bannerimg {
+  border-radius: 20px !important;
+}
+
+.this_month_tab_outer .tab_item.Mui-selected {
+  color: var(--theme_color1);
+}
+
+.this_month_tab_outer .product_pic_outer img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.this_month_tab_outer .sell_price {
+  font-size: 16px !important;
+  margin-top: 0px;
+}
+
+.this_month_tab_outer .product_s_pricing {
+  margin-top: 15px !important;
+  margin-bottom: 10px !important;
+}
+
+.this_month_tab_outer .product_price {
+  font-size: 16px !important;
+  /* color: var(--theme_color6); */
+}
+
+
+@media only screen and (max-width: 900px) {
+  .this_month_tabpanel>.MuiBox-root {
+    padding: 0px;
+  }
+
+  .this_month_tab_outer .tabs_inn .tab_item {
+    margin: 0px;
+    font-size: 15px;
+  }
+
+  .this_month_tab_outer .tabs_inn .MuiTabs-flexContainer {
+    display: flex;
+    justify-content: flex-start;
+  }
+}

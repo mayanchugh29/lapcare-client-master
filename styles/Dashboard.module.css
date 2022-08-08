@@ -1,0 +1,182 @@
+.dashboard_parent_container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+
+.menu_items_container {
+    display: none;
+    visibility: hidden;
+}
+
+.left_container {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 25%;
+    margin: 1rem;
+
+}
+
+
+.right_container {
+    padding: 1rem;
+    flex-flow: column nowrap;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 60%;
+    margin: 1rem;
+
+}
+
+.child_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 0.5px solid #e6e6e6;
+    cursor:pointer
+
+}
+
+.child_container:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.right_container__child_container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+.personal_info_container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_new_address_container {
+    border: 1px solid #e6e6e6;
+    padding: 1rem;
+}
+
+.add_new_address_header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.password_container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.email_container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.action_buttons_container {
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 60%
+}
+
+.action_button {
+    width: 100%;
+}
+
+.textField {
+    width: 60%;
+
+
+}
+
+
+@media (max-width: 960px) {
+    .dashboard_parent_container {
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column wrap;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .left_container {
+        display: none;
+        visibility: none;
+    }
+
+    .right_container {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 0.5rem;
+    }
+
+    .menu_items_container {
+        display: block;
+        visibility: visible;
+        padding: 1rem 0.5rem;
+        border: 0.5px solid #e6e6e6;
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .expandable_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .add_new_address_container{
+        padding:0.5rem;
+    }
+
+    .dashboard_items {
+        padding: 0.5rem 0;
+    }
+
+    .list_items {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0.85rem 0.5rem;
+        border-bottom: 0.5px solid #e6e6e6;
+        font-size: 0.9rem;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+
+    .personal_info_container {
+        padding: 0.5rem;
+        display: block;
+    }
+
+    .email_container {
+        display: block;
+
+    }
+
+    .password_container {
+        display: block;
+    }
+
+    .action_buttons_container {
+        padding: 1rem .5rem;
+        width: 100%
+    }
+
+
+    .textField {
+        width: 100%
+    }
+}

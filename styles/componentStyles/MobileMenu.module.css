@@ -1,0 +1,17 @@
+.mainContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.menuItem {
+	margin: 2px 1px;
+	padding: 8px 16px;
+}
+
+.menuText {
+	font-weight: 500 !important;
+}
+
+.categoryItem {
+	margin: 18px 0;
+}

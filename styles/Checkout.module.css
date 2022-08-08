@@ -1,0 +1,432 @@
+.parent_container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.breadcrumb {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.add_new_address_header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo_lg {
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+.logo_sm {
+    display: none;
+    visibility: hidden;
+}
+
+.left_container {
+    width: 60%;
+    padding: 0 2rem;
+}
+
+.right_container {
+    width: 40%;
+    border-left: 1px solid #e6e6e6;
+    background-color: #FAFAFA;
+    background-image: linear-gradient(to right, #FAFAFA, white);
+    padding: 2rem;
+}
+
+.contact_form_container {
+    padding: 1rem 0;
+}
+
+.address_form_container {
+    padding: 1rem 0;
+}
+
+.checkout_products_container{
+    padding:1rem 0 0.5rem 0;
+}
+
+
+.checkout_product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+.product_image {
+    border: 0.5px solid rgb(209, 208, 208);
+    border-radius: 2px;
+}
+
+.product_name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 90%;
+    margin-left: 3px;
+}
+
+.gift_card_container {
+    padding: 0.5rem;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.checkout_price_container p {
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.checkout_price_container div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    height: 3.5rem
+}
+
+.contact_info_card {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    width: 90%
+}
+
+.contact_info_card_child_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    padding: 0.5rem 0;
+    border-bottom: 0.5px solid #e6e6e6
+}
+
+.contact_info_card_child_div:last-child {
+    border-bottom: none;
+}
+
+.contact_info_card_child_div__p {
+    width: 60%;
+    line-height: 1.8;
+    letter-spacing: 0.2px
+}
+
+.payment_card {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    width: 90%
+}
+
+.payment_card_child_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 0;
+    border-bottom: 0.5px solid #e6e6e6
+}
+
+.payment_card_child_div:last-child {
+    border-bottom: none
+}
+
+.payment_option_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+
+}
+
+.payment_card_info {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+}
+
+.submit_button_sm {
+    display: none;
+    visibility: hidden;
+}
+
+.order_summary_container {
+    display: none;
+    visibility: hidden;
+}
+
+
+.checkout_steps_container {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    padding: 0;
+}
+
+
+.check_icon {
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
+    z-index: 2;
+    border-color: #fcc101;
+    border-width: 0px;
+    background-color: #fcc101;
+    height: 30px;
+    width: 30px;
+}
+
+.check_icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    height: 14px;
+    bottom: 0;
+    margin: auto 0;
+    border: 0px solid #AFAFAF;
+    transform: rotate(45deg);
+    border-color: #fff;
+    border-width: 0px 3px 3px 0;
+    opacity: 1;
+    top: -3px;
+    width: 7px;
+    left: 12px;
+}
+
+.unchecked_icon {
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
+    z-index: 2;
+    border-color: transparent;
+    border-width: 0px;
+    background-color: rgb(223, 221, 221);
+}
+
+.progress_icon {
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
+    z-index: 2;
+    border: solid 5px #fcc101;
+}
+
+
+
+.step_complete {
+    text-align: center;
+    width: 33.33%;
+    position: relative;
+    display: block;
+    color: black
+}
+
+.step_complete::before {
+    content: '';
+    display: block;
+    height: 3.5px;
+    width: calc(100% - 40px);
+    background-color: #fcc101;
+    top: 13px;
+    position: absolute;
+    left: calc(-50% + 20px);
+    z-index: 0;
+}
+
+.step_complete:first-child::before {
+    display: none;
+}
+
+.step_incomplete {
+    text-align: center;
+    width: 33.33%;
+    position: relative;
+    display: block;
+    color: #A4A4A4;
+}
+
+.step_incomplete::before {
+    content: '';
+    display: block;
+    height: 3.5px;
+    width: calc(100% - 40px);
+    background-color: rgb(223, 221, 221);
+    top: 13px;
+    position: absolute;
+    left: calc(-50% + 20px);
+    z-index: 0;
+}
+
+.status_text {
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+
+
+@media (max-width: 960px) {
+    .parent_container {
+        height: max-content;
+    }
+
+    .logo_lg {
+        display: none;
+        visibility: hidden;
+    }
+
+    .right_container {
+        display: none;
+        visibility: hidden;
+    }
+
+    .logo_sm {
+        display: block;
+        visibility: visible;
+        padding: 1rem;
+        margin: 0
+    }
+
+    .left_container {
+        width: 100%;
+        border-right: none;
+        padding: 0;
+        margin: 1.5rem 0;
+    }
+
+    .contact_form_container {
+        padding: 0.5rem 0;
+    }
+
+    .address_form_container {
+        padding: 0.5rem 0;
+    }
+
+    .contact_info_card {
+        padding: 0.5rem;
+        margin: 1rem 0;
+        width: 100%
+    }
+
+    .contact_info_card_child_div {
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .contact_info_card_child_div__p {
+        width: 90%;
+        letter-spacing: 0;
+        line-height: 1.2;
+        padding: 0.3rem 0;
+        color: rgb(90, 90, 90)
+    }
+
+    .submit_button_sm {
+        display: block;
+        visibility: visible
+    }
+
+    .payment_card {
+        padding: 0.5rem;
+        margin-top: 1rem;
+        width: 100%
+    }
+
+    .payment_card_child_div {
+        padding: 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    .order_summary_container {
+        display: block;
+        visibility: visible;
+        width: 100%;
+        margin: 0;
+        border: 1px solid #e6e6e6;
+        background-color: #FAFAFA;
+    }
+
+    .expandable_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0.5rem;
+    }
+
+    .order_summary__products_container {
+        display: block;
+        width: 100%;
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        margin-bottom: 1.5rem;
+        padding: 0 0.5rem;
+        margin: 0;
+    }
+
+    .gift_card_container {
+        padding: 0.5rem;
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .order_summary_price_container {
+        padding: 0 0.5rem;
+    }
+
+    .order_summary_price_container div {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.5rem 0;
+        line-height: 2;
+    }
+
+
+
+    .checkout_steps_container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+
+    .check_icon::after {
+        top: -4px;
+        width: 7px;
+        left: 12px;
+    }
+
+
+    .status_text {
+        font-size: 0.85rem;
+        margin-top: 5px;
+    }
+}

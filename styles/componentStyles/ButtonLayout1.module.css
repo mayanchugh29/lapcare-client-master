@@ -1,0 +1,166 @@
+.c_btn_outline {
+  background: transparent !important;
+  color: var(--theme_color7) !important;
+  position: relative !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  padding: 5px 25px !important;
+  transition: all 200ms linear !important;
+  max-width: 100% !important;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  text-transform: uppercase !important;
+
+  border: 1px solid var(--theme_color1) !important;
+  text-decoration: none;
+  border-radius: 4px !important;
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+  margin-right: 10px !important;
+}
+
+.c_btn_outline:hover {
+  background: var(--theme_color1) !important;
+  color: var(--theme_color6) !important;
+  /* border: 1px solid var(--theme_color1) !important; */
+}
+
+
+.c_btn_outline_light {
+  background: transparent !important;
+  color: var(--theme_color7) !important;
+  position: relative !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+  padding: 5px 25px !important;
+  transition: all 200ms linear !important;
+  max-width: 100% !important;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  text-transform: uppercase !important;
+
+  border: 1px solid var(--theme_color7) !important;
+  text-decoration: none;
+  border-radius: 4px !important;
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+  margin-right: 10px !important;
+}
+
+.c_btn_outline_light:hover {
+  background: var(--theme_color7) !important;
+  color: var(--theme_color1) !important;
+  /* border: 1px solid var(--theme_color1) !important; */
+}
+
+
+.c_btn_fill_dark {
+  background: var(--theme_color1) !important;
+  color: var(--theme_color7) !important;
+  position: relative !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+  padding: 8px 25px !important;
+  transition: all 200ms linear !important;
+  max-width: 100% !important;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  text-transform: uppercase !important;
+
+  /* border: 1px solid var(--theme_color6) !important; */
+  text-decoration: none;
+  border-radius: 4px !important;
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+  margin-right: 10px !important;
+}
+
+.c_btn_fill_dark:hover {
+  background: var(--theme_color7) !important;
+  color: var(--theme_color6) !important;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+}
+
+
+
+
+
+.c_btn {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase !important;
+  line-height: 2;
+  padding: 4px 15px;
+  transition: all 200ms linear;
+  border-radius: 4px;
+  /* min-width: 180px; */
+  max-width: 100%;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+  /* box-shadow: 0 12px 35px 0 rgba(16, 39, 112, .25); */
+  outline: 0;
+  text-transform: capitalize;
+  /* margin: 15px 5px; */
+  background: transparent;
+  margin-bottom: 15px;
+}
+
+.c_btn .btn_icon_l {
+  margin-right: 6px;
+}
+
+.c_wh_btn {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  padding: 12px 10px;
+  transition: all 200ms linear;
+  border-radius: 4px;
+  max-width: 100%;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+  /* box-shadow: 0 12px 35px 0 rgba(16, 39, 112, .25); */
+  outline: 0;
+  /* margin: 15px 5px; */
+  background: var(--theme_color1);
+  top: 6px;
+  color: #fff;
+  /* border: 1ps solid ; */
+}
+
+
+
+@media (max-width:960px) {
+  .c_btn_outline {
+    padding: 5px 12px !important;
+  }
+}

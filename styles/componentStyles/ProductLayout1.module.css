@@ -1,0 +1,93 @@
+.product_container {
+	height: 100%;
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 16px rgb(0 0 0 / 7%);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-color: #fff;
+	border-radius: 14px;
+	margin:7px 14px;
+}
+
+
+
+.product_container:hover{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.p_title_class {
+	width: 100%;
+	padding: 0.5rem;
+	font-size: 0.8rem !important;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.product_container img {
+	max-width: 100%;
+	cursor: pointer;
+	height: auto;
+}
+
+
+
+.star_icon svg {
+	color: var(--theme_color1);
+	font-size: 14px;
+}
+
+.sell_price {
+	font-size: 8px !important;
+	margin-top: 0px;
+	padding: 0.1rem;
+	text-align: center;
+
+	/* color: var(--theme_color6); */
+}
+
+.productNamePricingdiv {
+	display: block;
+	justify-content: space-between;
+	padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+	align-items: center;
+	text-align: center !important;
+}
+
+.product_s_pricing {
+	font-size: 8px !important;
+	text-align: right;
+	color: #666;
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+.p_title_class:hover {
+	color: #fcc101;
+	cursor: pointer;
+}
+
+.product_price {
+	font-size: 12px;
+	text-align: left;
+	color: #666;
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 960px) {
+	.product_container {
+		margin:20px 10px;
+		padding:0 7px;
+	}
+
+	.p_title_class {
+		font-size: 1rem !important;
+	}
+
+	.product_container img {
+		width: 100%;
+	}
+}

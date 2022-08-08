@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+    .search_btn {
+        padding: 8px !important;
+
+        margin-left: 0px !important;
+    }
+
+    .search_menu_outer {
+        width: 330px;
+        max-width: 100%;
+        left: auto !important;
+        right: 25px;
+        z-index: 9999;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .search_btn {
+        padding: 6px !important;
+    }
+
+
+}
+
+@media (max-width: 350px) {
+    .search_btn {
+        padding: 4px !important;
+    }
+
+}

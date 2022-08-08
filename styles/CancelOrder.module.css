@@ -1,0 +1,46 @@
+.parentContainer{
+	height:50vh;
+	display:flex !important;
+	justify-content:center !important;
+	align-items:center !important
+}
+
+.cancelOrderMainContainer {
+	margin:14px 0;
+	max-width: 50vw;
+	border-radius: 4px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cancelReason {
+	margin: 10px 0;
+	min-width: 400px;
+}
+
+.extraComments {
+	margin: 10px 0 !important;
+	min-width: 400px;
+}
+
+.requestCancellationButton {
+	margin: 10px 0 !important;
+	max-width: 260px;
+}
+
+@media (max-width: 960px) {
+	.parentContainer{
+		height: 35vh;
+	}
+	.cancelOrderMainContainer{
+		max-width: 100%;
+		
+	}
+
+	.cancelReason{
+		min-width: 200px;
+	}
+}

@@ -1,0 +1,11 @@
+.sortby_inpt_outer {
+  margin-top: 15px !important;
+}
+
+.sortby_inpt select {
+  padding: 12px 10px;
+}
+
+.sortby_inpt_outer label {
+  line-height: 0px;
+}

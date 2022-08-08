@@ -1,0 +1,386 @@
+{
+	"lpp": [
+		{
+			"lpp_section_id": 1,
+			"processAndTerms": [
+				{
+					"id": 1,
+					"title": "Claim Process",
+					"description": [
+						{
+							"item": "Customer registers the Lapcare product under LPP within 30 days on website https://www.lapcare.com/register or mail “customercare@lapcare.com” or toll-free number “8587812000”."
+						},
+						{
+							"item": "Customer Visits the nearest Lapcare service center with damaged appliance & Lapcare Battery/ Adapter/ Car Power Inverter/ Extension/ <br/> UPS, tax invoice & LPP registration number."
+						},
+						{
+							"item": "Lapcare service center verifies all provided details and inspects the damaged appliance."
+						},
+						{
+							"item": "Lapcare service center registers a complaint and provides a job sheet to the customer."
+						},
+						{
+							"item": " This process takes 15 to 30 days’ time."
+						},
+						{
+							"item": " Lapcare service center notifies customer after rectification."
+						},
+						{
+							"item": " Customer Re-visits with job sheet and collects the fixed appliance."
+						},
+						{
+							"item": " Claim value up to Rs 20,000  only, if the repairing cost is more than the claim value then service center will update the customer and customer will provide the payment (no invoice for extra value)."
+						},
+						{
+							"item": " The user needs to register the complaint within 24 to 48 Hours after the mishap. "
+						}
+					]
+				},
+				{
+					"id": 2,
+					"title": "Terms & Conditions",
+					"description": [
+						{
+							"item": "This Plan is only applicable on Lapcare Battery, Lapcare Adapter, Lapcare car power inverter, Lapcare power extension sockets and Lapcare UPS."
+						},
+						{
+							"item": "Applicable only if Customer buys the LPP covered Lapcare product from the authorized partner, dealer, or reseller."
+						},
+						{
+							"item": "LPP covered Lapcare product should be under the 365 days warranty."
+						},
+						{
+							"item": "LPP covered Lapcare product should be purchased on invoice. "
+						},
+						{
+							"item": "LPP covered Lapcare product should be registered under the LPP by the user with contact details within 30 days from the date of purchase of the product."
+						},
+						{
+							"item": "The user needs to register the complaint within 24 to 48 Hours after the mishap."
+						},
+						{
+							"item": "LPP covered Lapcare product should be 100% damaged (like a burn or overvoltage output)."
+						},
+						{
+							"item": "The affected appliance should not be opened or repaired by anyone other than the Lapcare service center. "
+						},
+						{
+							"item": "LPP covered Lapcare product should not be physically damaged."
+						},
+						{
+							"item": "This plan is applicable only in India."
+						},
+						{
+							"item": "LPP does not allow the customer to claim any type of payment or a new appliance or product under this plan."
+						},
+						{
+							"item": "Any loss of human/animal life, furniture, home, etc. not covered under LPP."
+						},
+						{
+							"item": "Any physical, liquid damage, missing part in the affected appliance not covered under LPP."
+						},
+						{
+							"item": "Any type of Data Lose, software, operating system re-installation not covered under LPP."
+						},
+						{
+							"item": "LPP is non-renewable or transferable."
+						}
+					]
+				}
+			]
+		}
+	],
+	"downloads": [
+		{
+			"downloads_section_id": 1,
+			"downloadsitem": [
+				{
+					"downloadsitem_id": 1,
+					"title": "LAPCARE PRODUCT CATALOUGE",
+					"subtitle": "Product Catalogue",
+					"hreftext": "Downloads",
+					"href": "https://lapcare.sgp1.digitaloceanspaces.com/downloads/downloads/New%20Lapcare%20Catalogue%20NEW.pdf"
+				},
+				{
+					"downloadsitem_id": 2,
+					"title": "LAPCARE BRANCH LIST  ",
+					"subtitle": "Branch List ",
+					"hreftext": "Downloads",
+					"href": "https://betatest.lapcare.com/wp-content/uploads/2018/01/Branch-List.pdf"
+				},
+				{
+					"downloadsitem_id": 3,
+					"title": "LAPCARE PROTECTION PLAN (LPP) POLICY  ",
+					"subtitle": "LAPCARE PROTECTION PLAN (LPP) Policy  ",
+					"hreftext": "Downloads",
+					"href": "https://betatest.lapcare.com/wp-content/uploads/2021/07/LPP-Lapcare-Protection-Plan.pdf"
+				},
+				{
+					"downloadsitem_id": 4,
+					"title": "LAPAIR WIRELESS USB 2.0 DRIVERS          ",
+					"subtitle": "LAPAIR Drivers          ",
+					"hreftext": "Downloads",
+					"href": "https://betatest.lapcare.com/wp-content/uploads/2018/05/LAPAIR.zip"
+				},
+				{
+					"downloadsitem_id": 5,
+					"title": "LAPCARE MOTHERBOARD LMB G31 DRIVERS          ",
+					"subtitle": "MOTHERBOARD LMB G31 Drivers          ",
+					"hreftext": "Downloads",
+					"href": "https://betatest.lapcare.com/wp-content/uploads/2018/05/LMB%20G31.zip"
+				},
+				{
+					"downloadsitem_id": 6,
+					"title": "LAPCARE MOTHERBOARD LMB H61 DRIVERS          ",
+					"subtitle": "MOTHERBOARD LMB H61 Drivers          ",
+					"hreftext": "Downloads",
+					"href": "https://betatest.lapcare.com/wp-content/uploads/2018/05/LMB%20H61.zip"
+				},
+				{
+					"downloadsitem_id": 7,
+					"title": "LAPCARE MOTHERBOARD LMB 945G DRIVERS          ",
+					"subtitle": "MOTHERBOARD LMB 945G Drivers          ",
+					"hreftext": "Downloads",
+					"href": "https://betatest.lapcare.com/wp-content/uploads/2018/05/LMB%20945G.zip"
+				},
+				{
+					"downloadsitem_id": 8,
+					"title": "LAPCARE MOTHERBOARD H55 DRIVERS          ",
+					"subtitle": "MOTHERBOARD LMB H55 Drivers          ",
+					"hreftext": "Downloads",
+					"href": "https://betatest.lapcare.com/wp-content/uploads/2018/05/LMB%20H61.zip"
+				},
+				{
+					"downloadsitem_id": 9,
+					"title": "LAPCARE MOTHERBOARD G41 DRIVERS          ",
+					"subtitle": "MOTHERBOARD LMB G41 Drivers          ",
+					"hreftext": "Downloads",
+					"href": "https://betatest.lapcare.com/wp-content/uploads/2018/05/LMB%20G41.zip"
+				},
+				{
+					"downloadsitem_id": 10,
+					"title": "LAPCARE MOTHERBOARD LMB N68 MIX DRIVERS          ",
+					"subtitle": "MOTHERBOARD LMB N68 MIX Drivers          ",
+					"hreftext": "Downloads",
+					"href": "https://betatest.lapcare.com/wp-content/uploads/2018/05/LMB%20N68%20MIX.zip"
+				},
+				{
+					"downloadsitem_id": 11,
+					"title": "LAPCARE MOTHERBOARD LMB H81 DRIVERS          ",
+					"subtitle": "LAPCARE MOTHERBOARD LMB H81 Drivers          ",
+					"hreftext": "Downloads",
+					"href": "https://betatest.lapcare.com/wp-content/uploads/2018/08/LMB%20H81.zip"
+				}
+			]
+		}
+	],
+	"videos": [
+		{
+			"videos_section_id": 1,
+			"videositem": [
+				{
+					"videositem_id": 1,
+					"embedurl": "https://www.youtube.com/embed/2IPfwTAD8Ao"
+				},
+				{
+					"videositem_id": 2,
+					"embedurl": "https://www.youtube.com/embed/xl_1hBV_NXI"
+				},
+				{
+					"videositem_id": 3,
+					"embedurl": "https://www.youtube.com/embed/mRJiSJeILCM"
+				},
+				{
+					"videositem_id": 4,
+					"embedurl": "https://www.youtube.com/embed/2FEdCWOQjeI"
+				},
+				{
+					"videositem_id": 1,
+					"embedurl": "https://www.youtube.com/embed/oyF8Ju7QXO4"
+				},
+				{
+					"videositem_id": 5,
+					"embedurl": "https://www.youtube.com/embed/qT2mHGpGL70"
+				},
+				{
+					"videositem_id": 6,
+					"embedurl": "https://www.youtube.com/embed/gh9aIpziiog"
+				},
+				{
+					"videositem_id": 7,
+					"embedurl": "https://www.youtube.com/embed/fEaKmkIeNBI"
+				},
+				{
+					"videositem_id": 8,
+					"embedurl": "https://www.youtube.com/embed/-bIquy6aF6g"
+				},
+				{
+					"videositem_id": 9,
+					"embedurl": "https://www.youtube.com/embed/d1EGYxrCSjI"
+				},
+				{
+					"videositem_id": 10,
+					"embedurl": "https://www.youtube.com/embed/xNwHMDFme7A"
+				},
+				{
+					"videositem_id": 11,
+					"embedurl": "https://www.youtube.com/embed/igUv5mC-0Xk"
+				},
+				{
+					"videositem_id": 12,
+					"embedurl": "https://www.youtube.com/embed/MxjSwuQKmbc"
+				},
+				{
+					"videositem_id": 13,
+					"embedurl": "https://www.youtube.com/embed/7EIiRyy4K28"
+				}
+			]
+		}
+	],
+	"location_over_world": [
+		{
+			"location_over_world_section_id": 1,
+			"location_item": [
+				{
+					"location_item_id": 1,
+					"short_address": "Bhandari House",
+					"company_name": "LAPCARE INDIA P LTD.",
+					"address": "601, Bhandari House, 91, Nehru Place, New Delhi -110019 ",
+					"email": "<strong>Email : </strong> customercare@lapcare.com",
+					"phone": "<strong>Phone : </strong> 8587812000",
+					"tel": "",
+					"fax": "",
+					"googlemap": "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d112150.69565450508!2d77.1830827328694!3d28.54845802864837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390ce3c56dd06489%3A0xfa2beae24dab0b57!2sLapcare+India%2C+601%2C+Bhandari+House%2C+91%2C+Nehru+Place+Market+Road%2C+Nehru+Place%2C+New+Delhi%2C+Delhi+110019!3m2!1d28.548475999999997!2d77.253123!5e0!3m2!1sen!2sin!4v1477375839625"
+				},
+				{
+					"location_item_id": 2,
+					"short_address": "Faridabad",
+					"company_name": "AUTHORISED DISTRIBUTOR: RX INFOTECH PVT LTD          ",
+					"address": "1201-1208, 12th Business Floor, Puri Business HUB, Sector – 81 Faridabad – 121004, Haryana",
+					"email": "<strong>Email : </strong> sales@rxinfotech.in",
+					"phone": "",
+					"tel": "",
+					"fax": "",
+					"googlemap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56153.68799911849!2d77.348614!3d28.400981000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdde597e780dd%3A0xf393bed7665c5e54!2sRx%20Infotech%20P%20Ltd!5e0!3m2!1sen!2sus!4v1628339530029!5m2!1sen!2sus"
+				}
+			]
+		}
+	],
+	"feedback": [
+		{
+			"feedback_section_id": 1,
+			"feedback_que": [
+				{
+					"feedback_que_id": 1,
+					"feedback_que": "How would you rate your overall experience with our service?",
+					"feedback_que_ans": [
+						{
+							"ans_id": 1,
+							"ans": "Excellent"
+						},
+						{
+							"ans_id": 2,
+							"ans": "Good"
+						},
+						{
+							"ans_id": 3,
+							"ans": "Everage"
+						},
+						{
+							"ans_id": 4,
+							"ans": "Poor"
+						}
+					]
+				},
+				{
+					"feedback_que_id": 2,
+					"feedback_que": "How satisfied are you with the customer support officer?",
+					"feedback_que_ans": [
+						{
+							"ans_id": 1,
+							"ans": "Excellent"
+						},
+						{
+							"ans_id": 2,
+							"ans": "Good"
+						},
+						{
+							"ans_id": 3,
+							"ans": "Everage"
+						},
+						{
+							"ans_id": 4,
+							"ans": "Poor"
+						}
+					]
+				},
+				{
+					"feedback_que_id": 3,
+					"feedback_que": "How satisfied are you with the timeliness of service?",
+					"feedback_que_ans": [
+						{
+							"ans_id": 1,
+							"ans": "Excellent"
+						},
+						{
+							"ans_id": 2,
+							"ans": "Good"
+						},
+						{
+							"ans_id": 3,
+							"ans": "Everage"
+						},
+						{
+							"ans_id": 4,
+							"ans": "Poor"
+						}
+					]
+				},
+				{
+					"feedback_que_id": 4,
+					"feedback_que": "How would you rate our product quality?",
+					"feedback_que_ans": [
+						{
+							"ans_id": 1,
+							"ans": "Excellent"
+						},
+						{
+							"ans_id": 2,
+							"ans": "Good"
+						},
+						{
+							"ans_id": 3,
+							"ans": "Everage"
+						},
+						{
+							"ans_id": 4,
+							"ans": "Poor"
+						}
+					]
+				},
+				{
+					"feedback_que_id": 5,
+					"feedback_que": "Would you recommend our product or service to other people?",
+					"feedback_que_ans": [
+						{
+							"ans_id": 1,
+							"ans": "Excellent"
+						},
+						{
+							"ans_id": 2,
+							"ans": "Good"
+						},
+						{
+							"ans_id": 3,
+							"ans": "Everage"
+						},
+						{
+							"ans_id": 4,
+							"ans": "Poor"
+						}
+					]
+				}
+			]
+		}
+	]
+}
