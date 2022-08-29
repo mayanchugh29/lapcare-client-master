@@ -21,8 +21,8 @@ const serverErrorPage = () => {
 				/>
 				<Typography variant="h2">Error 500</Typography>
 				<Typography variant="h4">
-					<span style={{ color: "#ffc815" }}>Whoooops....</span>{" "}
-					Something Went Wrong !!!
+					<span style={{ color: "#ffc815" }}>Under Maintenance</span>{" "}
+					We are coming back soon !!!
 				</Typography>
 				<Button
 					variant="outlined"
