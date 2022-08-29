@@ -13,13 +13,7 @@ const serverErrorPage = () => {
 		<div className={styles.root}>
 			<AccBreadcrumbs breadcrumbs={[{ routeName: "Home", route: "/" }]} />
 			<div className={styles.content}>
-				<Icon
-					style={{
-						color: "#ffc815",
-						fontSize: "80px",
-					}}
-				/>
-				<Typography variant="h2">Error 500</Typography>
+				
 				<Typography variant="h4">
 					<span style={{ color: "#ffc815" }}>Under Maintenance</span>{" "}
 					We are coming back soon !!!
