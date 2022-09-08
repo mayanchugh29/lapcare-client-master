@@ -171,6 +171,49 @@
 					"hreftext": "Downloads",
 					"href": "https://betatest.lapcare.com/wp-content/uploads/2018/08/LMB%20H81.zip"
 				}
+				{
+					"downloadsitem_id": 12,
+					"title": "Lapscan AV pro          ",
+					"subtitle": "Lapscan  AV pro Antivirus Download",
+					"hreftext": "Downloads",
+					"href": "https://dl.msecuredatalabs.com/release_versions/2022-07-08/LapscanAC.exe"
+				}
+				{
+					"downloadsitem_id": 13,
+					"title": "Lapscan Premia          ",
+					"subtitle": "Lapscan Premia Antivirus Download",
+					"hreftext": "Downloads",
+					"href": "https://dl.msecuredatalabs.com/release_versions/2022-08-26/LapscanPremia.exe"
+				}
+				{
+					"downloadsitem_id": 14,
+					"title": "Lapscan Ultima          ",
+					"subtitle": "Lapscan  Ultima Antivirus Download",
+					"hreftext": "Downloads",
+					"href": "https://dl.msecuredatalabs.com/release_versions/2022-08-26/LapscanUltima.exe"
+				}
+				{
+					"downloadsitem_id": 15,
+					"title": "Lapscan AV pro - Windows 7       ",
+					"subtitle": "Lapscan  AV pro Antivirus Download for Windows 7",
+					"hreftext": "Downloads",
+					"href": "https://dl.msecuredatalabs.com/release_versions/2022-07-08/LapscanACWin7.exe"
+				}
+				{
+					"downloadsitem_id": 16,
+					"title": "Lapscan Premia - Windows 7       ",
+					"subtitle": "Lapscan Premia Antivirus Download for Windows 7",
+					"hreftext": "Downloads",
+					"href": "https://dl.msecuredatalabs.com/release_versions/2022-09-02/LapscanPremia.exe"
+				}
+				{
+					"downloadsitem_id": 17,
+					"title": "Lapscan  AV pro - Windows 7       ",
+					"subtitle": "Lapscan  AV pro Antivirus Download for Windows 7",
+					"hreftext": "Downloads",
+					"href": "https://dl.msecuredatalabs.com/release_versions/2022-09-02/LapscanUltima.exe"
+				}
+				
 			]
 		}
 	],
