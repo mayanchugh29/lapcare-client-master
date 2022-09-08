@@ -27,7 +27,7 @@ export const states = [
     "Tripura",
     "Uttarakhand",
     "Uttar Pradesh",
-    "West Bengal",
+    "West Bengal", 
     "Andaman and Nicobar Islands",
     "Chandigarh",
     "Dadra and Nagar Haveli",
