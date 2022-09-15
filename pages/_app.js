@@ -66,8 +66,9 @@ function MyApp(props) {
 					<title>Lapcare</title>
 					<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
 					<script async src="https://www.googletagmanager.com/gtag/js?id=UA-187798636-2"></script>
-
-				</Head>
+					<script SameSite="None; Secure" src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.js"></script>
+					<script>var myLandbot = new Landbot.Popup({"{"}configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1368336-FP0SY1PCWKNTFDPY/index.json',{"}"}); </script>
+					</Head>
 				<ThemeProvider theme={theme}>
 					{/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
 					<CssBaseline />
