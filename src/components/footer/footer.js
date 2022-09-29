@@ -47,7 +47,7 @@ const Footer = () => {
           <Link href="/">
             <a>
               <Image
-                src="https://lapcare.sgp1.digitaloceanspaces.com/home/lapcare-logo-white.png"
+                src="https://lapcare-static.s3.ap-south-1.amazonaws.com/home/lapcare-logo-white.png"
                 alt="lapcare_logo"
                 layout="intrinsic"
                 height={50}
@@ -253,7 +253,7 @@ const Footer = () => {
             <div className={styles.paymentColumn}>
               <Typography variant="body2">100% Secure Payments</Typography>
               <Image
-                src="https://lapcare.sgp1.digitaloceanspaces.com/home/footer_icon.png"
+                src="https://lapcare-static.s3.ap-south-1.amazonaws.com/home/footer_icon.png"
                 alt="payment methods"
                 layout="responsive"
                 height={50}

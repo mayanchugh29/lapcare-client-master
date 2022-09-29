@@ -6,7 +6,7 @@ const Driver = () => {
   const router = useRouter();
   useEffect(() => {
     router.push(
-      "https://lapcare.sgp1.digitaloceanspaces.com/Lapcare.%5B20220520%5D%20%281%29.exe"
+      "https://lapcare-static.s3.ap-south-1.amazonaws.com/Lapcare.%5B20220520%5D%20%281%29.exe"
     );
   }, []);
 

@@ -8,39 +8,39 @@ import { useTheme, useMediaQuery } from "@material-ui/core";
 
 const home_banner_data = [
   {
-    banner: "https://lapcare.sgp1.digitaloceanspaces.com/home/banner-new.jpg",
+    banner: "https://lapcare-static.s3.ap-south-1.amazonaws.com/home/banner-new.jpg",
     route: "/product/LAPCARE-L-80-GAMING-MOUSE/LOMORB7871",
   },
   {
-    banner: "https://lapcare.sgp1.digitaloceanspaces.com/banner/1.jpg",
+    banner: "https://lapcare-static.s3.ap-south-1.amazonaws.com/banner/1.jpg",
     route: "/product/WINNER-Cooling-Pad-with-4-Fans-Laptop-Stand/LKSTPP7624",
   },
   {
-    banner: "https://lapcare.sgp1.digitaloceanspaces.com/banner/3.jpg",
+    banner: "https://lapcare-static.s3.ap-south-1.amazonaws.com/banner/3.jpg",
     route: "/category/Laptop-Batteries",
   },
   {
-    banner: "https://lapcare.sgp1.digitaloceanspaces.com/banner/4.jpg",
+    banner: "https://lapcare-static.s3.ap-south-1.amazonaws.com/banner/4.jpg",
     route: "/category/SSD",
   },
 ];
 
 const Mobile_banner_data = [
   {
-    banner: "https://lapcare.sgp1.digitaloceanspaces.com/home/banner-new.jpg",
+    banner: "https://lapcare-static.s3.ap-south-1.amazonaws.com/home/banner-new.jpg",
     route: "/product/LAPCARE-L-80-GAMING-MOUSE/LOMORB7871",
   },
   {
-    banner: "https://lapcare.sgp1.digitaloceanspaces.com/banner/1.jpg",
+    banner: "https://lapcare-static.s3.ap-south-1.amazonaws.com/banner/1.jpg",
     route: "/product/WINNER-Cooling-Pad-with-4-Fans-Laptop-Stand/LKSTPP7624",
   },
   {
     banner:
-      "https://lapcare.sgp1.digitaloceanspaces.com/home/Mobile%20Size-3.jpg",
+      "https://lapcare-static.s3.ap-south-1.amazonaws.com/home/Mobile%20Size-3.jpg",
     route: "/category/Laptop-Batteries",
   },
   {
-    banner: "https://lapcare.sgp1.digitaloceanspaces.com/banner/4.jpg",
+    banner: "https://lapcare-static.s3.ap-south-1.amazonaws.com/banner/4.jpg",
     route: "/category/ssd",
   },
 ];

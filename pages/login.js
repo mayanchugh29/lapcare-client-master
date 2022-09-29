@@ -160,7 +160,7 @@ const Login = (props) => {
         <Container maxWidth="lg" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
             <div className={styles.parent_card}>
                 <div className={styles.left_container}>
-                    <img src="https://lapcare.sgp1.digitaloceanspaces.com/home/login.svg" className={styles.image} />
+                    <img src="https://lapcare-static.s3.ap-south-1.amazonaws.com/home/login.svg" className={styles.image} />
                 </div>
 
                 {showLoginCard ?

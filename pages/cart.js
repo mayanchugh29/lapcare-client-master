@@ -142,7 +142,7 @@ const Cart = () => {
                                     </div>
                                 </div> :
                                 <div className={styles.cart_empty_container}>
-                                    <img src="https://lapcare.sgp1.digitaloceanspaces.com/home/cart.png" alt="cart-empty" height={65} width={65} className={styles.cart_image} />
+                                    <img src="https://lapcare-static.s3.ap-south-1.amazonaws.com/home/cart.png" alt="cart-empty" height={65} width={65} className={styles.cart_image} />
                                     <p>Your cart is empty!</p>
                                     <p style={{ fontSize: "0.9rem", fontWeight: "400", color: "grey" }}>Add items to it now.</p>
                                     <Button variant="outlined" color="primary" onClick={() => router.push('/')}>Shop Now</Button>

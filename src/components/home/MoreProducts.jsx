@@ -14,14 +14,14 @@ import Link from 'next/link'
 const banner_data = [
 
   {
-    banner: 'https://lapcare.sgp1.digitaloceanspaces.com/home/product_bann_001.jpg',
+    banner: 'https://lapcare-static.s3.ap-south-1.amazonaws.com/home/product_bann_001.jpg',
     route: '/product/LAPCARE-USB-SPEAKER-3W*2-LUS-040/LKAMBLUS7431'
   },
   {
-    banner: 'https://lapcare.sgp1.digitaloceanspaces.com/banner/5.jpg',
+    banner: 'https://lapcare-static.s3.ap-south-1.amazonaws.com/banner/5.jpg',
     route: '/product/LAPCARE-USB-SPEAKER-3W*2-LUS-040/LKAMBLUS7431'
   }, {
-    banner: 'https://lapcare.sgp1.digitaloceanspaces.com/banner/6.jpg',
+    banner: 'https://lapcare-static.s3.ap-south-1.amazonaws.com/banner/6.jpg',
     route: '/product/LAPCARE-USB-SPEAKER-3W*2-LUS-040/LKAMBLUS7431'
   },
 

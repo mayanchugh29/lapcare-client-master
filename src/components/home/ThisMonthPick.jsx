@@ -80,7 +80,7 @@ export default function ThisMonthPic(props) {
 					<TabPanel value={value} index={0} style={{ width: "100%" }} className={styles.this_month_tabpanel}>
 						<ThisMothPickComponent
 							products={props.categories[0].highlighted_products}
-							banner="https://lapcare.sgp1.digitaloceanspaces.com/Component.jpg"
+							banner="https://lapcare-static.s3.ap-south-1.amazonaws.com/Component.jpg"
 							route="category/ssd"
 						/>
 					</TabPanel>
@@ -92,7 +92,7 @@ export default function ThisMonthPic(props) {
 					>
 						<ThisMothPickComponent
 							products={props.categories[1].highlighted_products}
-							banner="https://lapcare.sgp1.digitaloceanspaces.com/Audio.jpg"
+							banner="https://lapcare-static.s3.ap-south-1.amazonaws.com/Audio.jpg"
 							route="/category/speaker"
 						/>
 					</TabPanel>
@@ -104,7 +104,7 @@ export default function ThisMonthPic(props) {
 					>
 						<ThisMothPickComponent
 							products={props.categories[2].highlighted_products}
-							banner="https://lapcare.sgp1.digitaloceanspaces.com/Periphrels.jpg"
+							banner="https://lapcare-static.s3.ap-south-1.amazonaws.com/Periphrels.jpg"
 							route="/category/mouse"
 						/>
 					</TabPanel>
@@ -116,7 +116,7 @@ export default function ThisMonthPic(props) {
 					>
 						<ThisMothPickComponent
 							products={props.categories[3].highlighted_products}
-							banner="https://lapcare.sgp1.digitaloceanspaces.com/Accessories.jpg"
+							banner="https://lapcare-static.s3.ap-south-1.amazonaws.com/Accessories.jpg"
 							route="/category/laptop-stand"
 						/>
 					</TabPanel>
@@ -128,7 +128,7 @@ export default function ThisMonthPic(props) {
 					>
 						<ThisMothPickComponent
 							products={props.categories[4].highlighted_products}
-							banner="https://lapcare.sgp1.digitaloceanspaces.com/Power%20Solutions.jpg"
+							banner="https://lapcare-static.s3.ap-south-1.amazonaws.com/Power%20Solutions.jpg"
 							route="/category/laptop-batteries"
 						/>
 					</TabPanel>

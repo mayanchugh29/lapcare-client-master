@@ -5,7 +5,7 @@ import styles from "../../../styles/Lpp.module.css";
 const featuresData = [
 	{
 		title: "Adapters",
-		imgsrc: "https://lapcare.sgp1.digitaloceanspaces.com/home/lpp/lapcare_001.png",
+		imgsrc: "https://lapcare-static.s3.ap-south-1.amazonaws.com/home/lpp/lapcare_001.png",
 		description: [
 			{
 				item: `Over current protection`,
@@ -26,7 +26,7 @@ const featuresData = [
 	},
 	{
 		title: "Laptop Battery",
-		imgsrc: "https://lapcare.sgp1.digitaloceanspaces.com/home/lpp/lapcare_002.png",
+		imgsrc: "https://lapcare-static.s3.ap-south-1.amazonaws.com/home/lpp/lapcare_002.png",
 		description: [
 			{
 				item: `High quality cells`,
@@ -41,7 +41,7 @@ const featuresData = [
 	},
 	{
 		title: "UPS",
-		imgsrc: "https://lapcare.sgp1.digitaloceanspaces.com/home/lpp/lapcare_003.png",
+		imgsrc: "https://lapcare-static.s3.ap-south-1.amazonaws.com/home/lpp/lapcare_003.png",
 		description: [
 			{
 				item: `Automatic Voltage regulation`,
@@ -71,7 +71,7 @@ const featuresData = [
 	},
 	{
 		title: "Power Extensions",
-		imgsrc: "https://lapcare.sgp1.digitaloceanspaces.com/home/lpp/lapcare_004.png",
+		imgsrc: "https://lapcare-static.s3.ap-south-1.amazonaws.com/home/lpp/lapcare_004.png",
 		description: [
 			{
 				item: `Durable and fire-proof case`,
@@ -89,7 +89,7 @@ const featuresData = [
 	},
 	{
 		title: "Car Power Inverter",
-		imgsrc: "https://lapcare.sgp1.digitaloceanspaces.com/home/lpp/lapcare_005.png",
+		imgsrc: "https://lapcare-static.s3.ap-south-1.amazonaws.com/home/lpp/lapcare_005.png",
 		description: [
 			{
 				item: `Short circuit protection`,

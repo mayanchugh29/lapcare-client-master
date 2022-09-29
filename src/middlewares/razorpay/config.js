@@ -34,7 +34,7 @@ const razorpayWindow = async (order_data,token,setToastify,router)=>{
         name: "Lapcare",
         order_id: order_data.id, 
         description: `Payment for ${order_data.orderId}`,
-        image: 'https://lapcare.sgp1.digitaloceanspaces.com/home/lapcare_logo.png',
+        image: 'https://lapcare-static.s3.ap-south-1.amazonaws.com/home/lapcare_logo.png',
         handler: async function (res) {
             setToastify('Payment Processing!','info')
             router.push(`/order-details/${order_data.orderId}`)

@@ -7,14 +7,14 @@ const Description = () => {
         <div className={styles.descriptionSection}>
             <div className={styles.comparisonChart}>
                 <img
-                    src="https://lapcare.sgp1.digitaloceanspaces.com/categoryBanners/antivirus_table.png"
+                    src="https://lapcare-static.s3.ap-south-1.amazonaws.com/categoryBanners/antivirus_table.png"
                     alt="Comparison Chart"
                 />
             </div>
             <div className={styles.descriptionContainer}>
                 <div className={styles.productBanner}>
                     <img
-                        src="https://lapcare.sgp1.digitaloceanspaces.com/categoryBanners/Banner-24.jpg"
+                        src="https://lapcare-static.s3.ap-south-1.amazonaws.com/categoryBanners/Banner-24.jpg"
                         className={styles.bannerImage}
                     />
                 </div>

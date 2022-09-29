@@ -199,7 +199,7 @@ const Address = () => {
                             <div className={styles.parent_container}>
                                 <div className={styles.left_container}>
                                     <div className={styles.logo_lg}>
-                                        <img src='https://lapcare.sgp1.digitaloceanspaces.com/lapcare-logo-u.png'
+                                        <img src='https://lapcare-static.s3.ap-south-1.amazonaws.com/lapcare-logo-u.png'
                                             width={220}
                                             height={40}
                                         />

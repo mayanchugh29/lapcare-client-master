@@ -155,7 +155,7 @@ const Orders = () => {
               </div>
             ) : (
               <div className={styles.zeroOrdersContainer}>
-                <img src="https://lapcare.sgp1.digitaloceanspaces.com/not-found.png" />
+                <img src="https://lapcare-static.s3.ap-south-1.amazonaws.com/not-found.png" />
                 <p>No Orders Yet</p>
               </div>
             )}

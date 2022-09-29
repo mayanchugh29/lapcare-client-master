@@ -70,7 +70,7 @@ const PasswordReset = () => {
         <Container maxWidth="lg" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
             <div className={styles.parent_card}>
                 <div className={styles.left_container}>
-                    <img src="https://lapcare.sgp1.digitaloceanspaces.com/email/forgot-password.png" className={styles.image} />
+                    <img src="https://lapcare-static.s3.ap-south-1.amazonaws.com/email/forgot-password.png" className={styles.image} />
                 </div>
                 <div className={styles.right_container}>
                     <Typography variant="h6" align="center" gutterBottom style={{ marginBottom: "14px" }} >PASSWORD RESET</Typography>

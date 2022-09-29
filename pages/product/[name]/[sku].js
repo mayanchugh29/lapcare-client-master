@@ -239,7 +239,7 @@ const ProductSingle = (props) => {
 										<Box className={styles.l_box}>
 											<div className={styles.shipping_box_header}>
 												<img
-													src="https://lapcare.sgp1.digitaloceanspaces.com/home/shipping.png"
+													src="https://lapcare-static.s3.ap-south-1.amazonaws.com/home/shipping.png"
 													className={styles.y_icons}
 												/>
 												<Typography variant="h6">Shipping & Delivery</Typography>
@@ -265,7 +265,7 @@ const ProductSingle = (props) => {
 										<Box className={styles.r_box}>
 											<div className={styles.shipping_box_header}>
 												<img
-													src="https://lapcare.sgp1.digitaloceanspaces.com/home/returns.png"
+													src="https://lapcare-static.s3.ap-south-1.amazonaws.com/home/returns.png"
 													className={styles.y_icons}
 												/>
 												<Typography variant="h6">Returns & Warranty</Typography>

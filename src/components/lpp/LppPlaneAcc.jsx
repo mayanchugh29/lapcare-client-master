@@ -35,7 +35,7 @@ export default function LppPlaneAcc() {
 	return (
 		<div className={styles.headerDiv}>
 			<div className={styles.descriptionDivImg}>
-				<img src="https://lapcare.sgp1.digitaloceanspaces.com/home/lpp/lapcare_001.jpg" alt="lpp" />
+				<img src="https://lapcare-static.s3.ap-south-1.amazonaws.com/home/lpp/lapcare_001.jpg" alt="lpp" />
 				<div>
 					<Typography className={styles.headingTitle}>{lppData[0].title}</Typography>
 					<Typography className={styles.headingDescription}>

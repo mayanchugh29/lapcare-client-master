@@ -5,7 +5,7 @@ import React, { useEffect } from 'react'
 const Catalogue = () => {
     const router = useRouter();
     useEffect(() => {
-        router.push('https://lapcare.sgp1.digitaloceanspaces.com/downloads/downloads/New%20Lapcare%20Catalogue%20NEW.pdf')
+        router.push('https://lapcare-static.s3.ap-south-1.amazonaws.com/downloads/downloads/New%20Lapcare%20Catalogue%20NEW.pdf')
     }, [])
 
     return (

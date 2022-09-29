@@ -5,7 +5,7 @@ const dhamakaluckydraw = () => {
   return (
     <div style={{ minHeight: "40vh", marginBottom: "28px" }}>
       <Image
-        src="https://lapcare.sgp1.digitaloceanspaces.com/3-10-%20New%20%2818-May-2022%29.jpg"
+        src="https://lapcare-static.s3.ap-south-1.amazonaws.com/3-10-%20New%20%2818-May-2022%29.jpg"
         height={840}
         width={1920}
         alt="banner"

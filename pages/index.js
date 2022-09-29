@@ -25,6 +25,7 @@ const Home = (props) => {
         name="google-site-verification"
         content="fQ7PBz_xePrvCLdqWAeAvVh5VH4NGMOZTr9kr4XePLg"
       />
+      
 
       <Box display="block" maxWidth="100%">
         <HomeBanner />
@@ -73,6 +74,7 @@ const Home = (props) => {
         <InstagramSection />
       </Box>
     </div>
+    
   );
 };
 
@@ -89,5 +91,7 @@ export async function getServerSideProps(context) {
     props: { categories }, // will be passed to the page component as props
   };
 }
+
+
 
 export default Home;
