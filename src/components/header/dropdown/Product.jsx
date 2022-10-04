@@ -36,6 +36,12 @@ const Product1 = (props) => {
             return 'LOSFUS7148'
         }else if(name==='Lapcare AV Pro'){
             return 'LPSCAN2202'
+        }else if(name==='AV Pro'){
+            return 'LOSFAV7146'
+        }else if(name==='Premia'){
+            return 'LOSFTS7147'
+        }else if(name==='Ultima'){
+            return 'LOSFUS7148'
         }else{
             return 'LPSCAN2201'
         }

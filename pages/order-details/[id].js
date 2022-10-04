@@ -49,7 +49,7 @@ const SingleOrder = (props) => {
 	const [tracking, settracking] = useState(false)
 	const { id } = router.query;
 	const orderStatus = ["Order Placed", "Payment Failed", "Payment Pending"];
-	const antivirus = ['Ultimate Security', 'Lapscan AV Pro Cloud', 'Total Security Premium']
+	const antivirus = ['Ultimate Security', 'Lapscan AV Pro Cloud', 'Total Security Premium', 'AV Pro', 'Ultima', 'Premia']
 
 	let paymentFailed;
 	let itemBeforeTax = 0;

@@ -78,7 +78,7 @@ const categories = [
 	},
 	{
 		name: "Anti-Virus",
-		values: ["Lapcare AV Pro", "Total Security", "Ultimate Security"],
+		values: ["Lapcare AV Pro", "Total Security", "Ultimate Security", "AV Pro"],
 	},
 ];
 
