@@ -169,6 +169,28 @@ const Antivirus = (props) => {
 							>
 								Download Trial Version
 							</Button>
+											
+							<Button
+							    disableElevation
+								onClick={()=>router.push(`${props.data.downloads[1]}`)}
+								className={styles.downloadButton}
+								variant="contained"
+								color="primary"
+								style={{ 'margin-left': "5px", 'margin-right': "5px" }}
+							>
+								Download Windows 7 Trial Version
+							</Button>
+								
+						
+							<Button
+							    disableElevation
+								onClick={()=>router.push(`${props.data.downloads[2]}`)}
+								className={styles.downloadButton}
+								variant="contained"
+								color="primary"
+							>
+								Download Old Version
+							</Button>
 						</div>
 				<Description />
 				{props.data.avaiblity === 1 ? (
