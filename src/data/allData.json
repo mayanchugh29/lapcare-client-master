@@ -97,9 +97,10 @@
 				{
 					"downloadsitem_id": 1,
 					"title": "LAPSCAN PC CLEANER",
-					"subtitle": "Pc Cleaner",
+					"subtitle": "Supported Operating System: Win XP/7/8/8.1/10/11",
+					"subtitle2": "Minimum Hardware Requirement: Processor 1.2 GHZ/1GB RAM/1GB Hard Disk Space",
 					"hreftext": "Downloads",
-					"href": "https://dl.msecuredatalabs.com/release_versions/2022-08-03/LSDeskCleaningTool.zip"
+					"href": "https://lapcareaws-static.s3.ap-south-1.amazonaws.com/downloads/LSDeskCleaningTool.exe"
 				},
 				{
 					"downloadsitem_id": 2,

@@ -42,6 +42,14 @@ const Downloads = (props) => {
                           style={{ marginTop: "1rem" }}
                         >
                           {post.subtitle}
+                          
+                        </Typography>
+                        <Typography
+                          variant="body1"
+                          style={{ marginTop: "1rem" }}
+                        >
+                          
+                          {post.subtitle2}
                         </Typography>
                       </div>
 
