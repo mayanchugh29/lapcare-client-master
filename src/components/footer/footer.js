@@ -94,7 +94,7 @@ const Footer = () => {
                 </Typography>
               </a>
             </Link>
-            <Link href="/orders">
+            <Link href="/account/orders">
               <a>
                 <Typography variant="body2" gutterBottom>
                   Track Orders
