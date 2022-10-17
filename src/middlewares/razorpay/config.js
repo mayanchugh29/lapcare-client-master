@@ -28,7 +28,7 @@ const razorpayWindow = async (order_data,token,setToastify,router)=>{
     }
 
     const options = {
-        key: "rzp_live_TiTjqaWf5WtUWE", // Enter the Key ID generated from the Dashboard
+        key: "rzp_live_CuuiODOZhNV0yY", // Enter the Key ID generated from the Dashboard
         amount: order_data.amount.toString(),
         currency: order_data.currency.toString(),
         name: "Lapcare",
