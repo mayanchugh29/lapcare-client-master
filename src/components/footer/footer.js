@@ -187,6 +187,13 @@ const Footer = () => {
                 </Typography>
               </a>
             </Link>
+            <Link href="https://stores.lapcare.com/">
+              <a>
+                <Typography variant="body2" gutterBottom>
+                  Locate Us
+                </Typography>
+              </a>
+            </Link>
           </div>
           <div className={styles.column}>
             <Typography variant="h6" gutterBottom>
