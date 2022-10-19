@@ -18,6 +18,7 @@ import { useStore } from "../src/store/store";
 
 //Components
 import Header from "../src/components/header/Header.jsx";
+import DownloadButton from "../src/components/header/download/download";
 import AuthFunction from "../src/middlewares/Auth/Auth";
 import CustomizedSnackbars from "../src/components/Toastify/Snackbar";
 import Footer from "../src/components/footer/footer";
@@ -76,6 +77,7 @@ function MyApp(props) {
 						{wrapAuthComponent ? (
 							<AuthFunction>
 								{showHeader}
+								<DownloadButton />
 								<CustomizedSnackbars />
 								<Component {...pageProps} />
 								{showFooter}
