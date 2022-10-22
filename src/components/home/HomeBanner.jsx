@@ -10,7 +10,7 @@ import { useSelector } from 'react-redux'
 const home_banner_data = [
   {
     banner: "https://lapcareaws-static.s3.ap-south-1.amazonaws.com/lapscan/Lapscan+PC+Cleaner+banner+1920+x+1000-min.png",
-    route: "/download",
+    route: "https://lapcareaws-static.s3.ap-south-1.amazonaws.com/downloads/LSDeskCleaningTool.exe",
     auth: true
   },
   {
