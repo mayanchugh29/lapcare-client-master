@@ -5,8 +5,14 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useTheme, useMediaQuery } from "@material-ui/core";
+import { useSelector } from 'react-redux'
 
 const home_banner_data = [
+  {
+    banner: "https://lapcareaws-static.s3.ap-south-1.amazonaws.com/lapscan/Lapscan+PC+Cleaner+banner+1920+x+1000-min.png",
+    route: "/download",
+    auth: true
+  },
   {
     banner: "https://lapcare-static.s3.ap-south-1.amazonaws.com/home/banner-new.jpg",
     route: "/product/LAPCARE-L-80-GAMING-MOUSE/LOMORB7871",
@@ -26,6 +32,11 @@ const home_banner_data = [
 ];
 
 const Mobile_banner_data = [
+  {
+    banner: "https://lapcareaws-static.s3.ap-south-1.amazonaws.com/lapscan/Lapscan+PC+Cleaner+banner+1920+x+1000-min.png",
+    route: "/download",
+    auth: true
+  },
   {
     banner: "https://lapcare-static.s3.ap-south-1.amazonaws.com/home/banner-new.jpg",
     route: "/product/LAPCARE-L-80-GAMING-MOUSE/LOMORB7871",
@@ -70,11 +81,21 @@ const HomeBanner = () => {
     data = home_banner_data;
   }
 
+  const token = useSelector((state) => state.authReducer.token);
+
+  const isAuthenticated = (data) => {
+    if (data.auth !== true)
+      return true
+    if (token)
+      return true
+    return false
+  }
+
   return (
     <Slider {...settings} xs={12}>
       {data.map((home_banner_data, ind) => (
         <div key={ind}>
-          <Link href={home_banner_data.route}>
+          <Link href={isAuthenticated(home_banner_data) ? home_banner_data.route : "/login"}>
             <a>
               <Image
                 src={home_banner_data.banner}
