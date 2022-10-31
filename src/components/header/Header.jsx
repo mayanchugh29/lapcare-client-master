@@ -86,7 +86,7 @@ export default function Header() {
           </div>
         </Box>
 
-        <Box width={8 / 12}>
+        <Box width={11 / 12}>
           {categories.map((category, i) => (
             <Product category={category} key={i} />
           ))}
