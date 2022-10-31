@@ -12,7 +12,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 const useStyles = makeStyles((theme) => ({
     root: {
         position: "fixed",
-        zIndex: 1000,
+        zIndex: 999,
         width: 100,
         top: 60,
         right: 20,
