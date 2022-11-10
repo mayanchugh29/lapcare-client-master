@@ -59,7 +59,7 @@ const ProductCard = ({ product,category }) => {
 		if(category === 'Laptop Batteries' || category === 'Laptop Adapter' || category === 'Toner Cartridges'){
 			return product.name
 		}else{
-			return product.name.length > 35 ? product.name.slice(0, 35) + "..." : product.name
+			return product.name.length > 50 ? product.name.slice(0, 50) + "..." : product.name
 		}
 	}
 	return (
@@ -81,12 +81,7 @@ const ProductCard = ({ product,category }) => {
 				>
 					{trunkateProductName(product)}
 				</Typography>
-				<Typography variant="body1" className={styles.star_icon}>
-					<StarIcon />
-					<StarIcon />
-					<StarIcon />
-					<StarIcon /> <span>{product.reviews.length} Reviews</span>
-				</Typography>
+				
                 <div className={styles.productPriceContainer}>
 				<Typography variant="h6" className={styles.productPrice} style={{ fontWeight: "600" }}>
 					<span>&#8377; {product.sellingPrice}</span>

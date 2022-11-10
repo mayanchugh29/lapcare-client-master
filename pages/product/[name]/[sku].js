@@ -176,9 +176,7 @@ const ProductSingle = (props) => {
 									{data.name}
 								</Typography>
 
-								<div className={styles.product_rating_container}>
-									<ReviewsInShort reviews={data.reviews} />
-								</div>
+								
 
 								<div className={styles.product_s_pricing}>
 									<p className={styles.sell_price}>&#8377; {data.sellingPrice}</p>
