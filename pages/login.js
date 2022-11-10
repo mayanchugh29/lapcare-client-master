@@ -204,7 +204,7 @@ const Login = (props) => {
                         <div className={styles.social_login_container}>
                             <p>Or, Sign in with</p>
                             <FacebookLogin
-                                appId="1102099647160796"
+                                appId="267535711484649"
                                 autoLoad={false}
                                 fields="name,email,id"
                                 callback={responseFacebook}
