@@ -105,7 +105,9 @@ const Coupon = (props) => {
         size="small"
         id="outlined-basic"
         label="coupon Code"
+        helperText="*Coupon code should not contain any spaces"
         variant="outlined"
+        inputProps={{ style: { textTransform: "uppercase" } }}
         fullWidth
         onChange={(e) => setcode(e.target.value)}
       />
@@ -114,11 +116,14 @@ const Coupon = (props) => {
         color="primary"
         disableElevation
         onClick={handleCoupon}
-        style={{ marginLeft: "5px" }}
+        style={{ marginLeft: "5px", marginBottom: "20px" }}
       >
         Apply
       </Button>
+     
     </div>
+    
+    
   );
 };
 
