@@ -137,8 +137,8 @@ const Antivirus = (props) => {
 									>
 										<p className={styles.product_price}>
 											{" "}
-											&#8377;{" "}
-											{props.data.costPrice === undefined || props.data.costPrice === null ? props.data.sellingPrice : props.data.costPrice}
+											&#8377;{" "}<del>
+											{props.data.costPrice === undefined || props.data.costPrice === null ? props.data.sellingPrice : props.data.costPrice}</del>
 										</p>
 										<p className={styles.discount_amount}>
 											{" "}
