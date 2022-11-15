@@ -128,6 +128,29 @@ const Antivirus = (props) => {
 						<p style={{fontSize:"16px",fontWeight:"500"}}>(Email Delivery in 1-2 working days- No CD)</p>
 						<div className={styles.priceContainer}>
 							<Typography className={styles.sellingPrice}>&#8377; {props.data.sellingPrice}</Typography>
+							<div
+										style={{
+											display: "flex",
+											flexFlow: "column wrap",
+											marginLeft: "0.3rem",
+										}}
+									>
+										<p className={styles.product_price}>
+											{" "}
+											&#8377;{" "}
+											{props.data.costPrice === undefined || props.data.costPrice === null ? props.data.sellingPrice : props.data.costPrice}
+										</p>
+										<p className={styles.discount_amount}>
+											{" "}
+											You save &#8377; {props.data.costPrice === undefined || props.data.costPrice === null ? 0 : props.data.costPrice-props.data.sellingPrice} (
+											{(props.data.costPrice === undefined || props.data.costPrice === null
+												? 0
+												: Math.round(((props.data.costPrice - props.data.sellingPrice) / props.data.costPrice) * 100)) + "%"}
+											)
+										</p>
+
+									
+							</div>
 						</div>
 						{props.data.avaiblity === 1 ? (
 								<div className={styles.action_buttons_container}>
