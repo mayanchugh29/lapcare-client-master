@@ -109,7 +109,7 @@ const Coupon = (props) => {
         variant="outlined"
         inputProps={{ style: { textTransform: "uppercase" } }}
         fullWidth
-        onChange={(e) => setcode(e.target.value)}
+        onChange={(e) => setcode(e.target.value.toUpperCase())}
       />
       <Button
         variant="contained"
