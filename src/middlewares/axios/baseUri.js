@@ -1,1 +1,1 @@
-export const base_url ="https://lapcareserver.herokuapp.com/client";
+export const base_url ="https://backend.lapcare.com/client";
