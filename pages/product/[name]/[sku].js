@@ -242,7 +242,7 @@ const ProductSingle = (props) => {
 												/>
 												<Typography variant="h6">Shipping & Delivery</Typography>
 											</div>
-											<CheckPincodeAvl productDimension={data.productDimension} productWeight={data.productWeight} />
+											
 											<List style={{ fontSize: "13px !important" }} component="ul" className={styles.small_info}>
 												<ListItem>
 													<ListItemIcon className={styles.list_icon}>
