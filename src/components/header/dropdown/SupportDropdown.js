@@ -78,7 +78,7 @@ export default function SupportDropdown() {
                 disableRipple
                 className={styles.dropdown_toggle_btn}
             >
-                <a href="/category/mouse">Antivirus</a> <ExpandMoreIcon />
+                <a href="/category/lapscan">Antivirus</a> <ExpandMoreIcon />
             </Button>
             <Button
                 component="li"
