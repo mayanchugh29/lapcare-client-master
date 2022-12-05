@@ -75,6 +75,16 @@ export default function SupportDropdown() {
                 ref={anchorRef}
                 aria-controls={open ? "menu-list-grow" : undefined}
                 aria-haspopup="true"
+                disableRipple
+                className={styles.dropdown_toggle_btn}
+            >
+                <a href="/category/mouse">Antivirus</a> <ExpandMoreIcon />
+            </Button>
+            <Button
+                component="li"
+                ref={anchorRef}
+                aria-controls={open ? "menu-list-grow" : undefined}
+                aria-haspopup="true"
                 onClick={handleToggle}
                 disableRipple
                 className={styles.dropdown_toggle_btn}

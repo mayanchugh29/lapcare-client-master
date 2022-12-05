@@ -142,6 +142,13 @@ export default function MobileMenu(props) {
 				))}
 			</div>
 			<div className={styles.menuItem} onClick={()=>props.setState((prevState) => ({ ...prevState, drawerOpen: false }))}>
+				<Link href="/category/lapscan">
+					<a>
+						<Typography className={styles.menuText}>Antivirus</Typography>
+					</a>
+				</Link>
+			</div>
+			<div className={styles.menuItem} onClick={()=>props.setState((prevState) => ({ ...prevState, drawerOpen: false }))}>
 				<Link href="/register">
 					<a>
 						<Typography className={styles.menuText}>Register Product</Typography>
