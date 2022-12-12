@@ -251,10 +251,7 @@ const Footer = () => {
               <Typography variant="body2">7 Days Return Policy</Typography>
             </div>
 
-            <div className={styles.innerColumn_container}>
-              <DeliveryIcon style={{ color: "#f5f5f5" }} />
-              <Typography variant="body2">Cash On Delivery</Typography>
-            </div>
+            
           </div>
           <div className={styles.column}>
             <div className={styles.paymentColumn}>

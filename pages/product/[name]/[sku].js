@@ -275,6 +275,12 @@ const ProductSingle = (props) => {
 													</ListItemIcon>
 													<ListItemText primary="7 days easy returns" />
 												</ListItem>
+												<ListItem>
+													<ListItemIcon className={styles.list_icon}>
+														<FiberManualRecordIcon />
+													</ListItemIcon>
+													<ListItemText primary="Delivery within 5-6 Days" />
+												</ListItem>
 											</List>
 										</Box>
 									</Grid>
