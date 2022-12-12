@@ -70,16 +70,7 @@ export default function SupportDropdown() {
 
     return (
         <>
-            <Button
-                component="li"
-                ref={anchorRef}
-                aria-controls={open ? "menu-list-grow" : undefined}
-                aria-haspopup="true"
-                disableRipple
-                className={styles.dropdown_toggle_btn}
-            >
-                <a href="/category/lapscan">Antivirus</a> <ExpandMoreIcon />
-            </Button>
+            
             <Button
                 component="li"
                 ref={anchorRef}
