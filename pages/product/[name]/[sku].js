@@ -279,7 +279,7 @@ const ProductSingle = (props) => {
 													<ListItemIcon className={styles.list_icon}>
 														<FiberManualRecordIcon />
 													</ListItemIcon>
-													<ListItemText primary="Delivery within 5-6 Days" />
+													<ListItemText primary="Delivery within 6-7 working days" />
 												</ListItem>
 											</List>
 										</Box>

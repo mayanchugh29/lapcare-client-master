@@ -135,6 +135,17 @@ export default function SupportDropdown() {
                                         onClick={handleClose}
                                         className={styles.menu_item}
                                     >
+                                        <Link href="/download">
+                                            <a >
+                                                <span>Driver Download</span>
+                                            </a>
+                                        </Link>
+                                    </MenuItem>
+
+                                    <MenuItem
+                                        onClick={handleClose}
+                                        className={styles.menu_item}
+                                    >
                                         <Link href="/feedback">
                                             <a >
                                                 <span>Feedback</span>

@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import ImageMagnify from 'react-image-magnify';
 import NavigateNextRoundedIcon from "@material-ui/icons/NavigateNextRounded";
 import NavigateBeforeRoundedIcon from "@material-ui/icons/NavigateBeforeRounded";
 import Image  from "next/image";
@@ -54,7 +55,25 @@ const ProductView = (props) => {
 		<Slider {...settings} className={styles.product_page_slider}>
 			{props.images.map((image, i) => (
 				<div key={i}>
-					<Image src={image} width={100} height={100} layout='responsive' alt="product" loading="eager" priority={true}/>
+					
+					<ImageMagnify
+    {...{
+      smallImage: {
+        src: props.images[i],
+        alt: 'Image 1',
+        isFluidWidth: true,
+		
+      },
+      largeImage: {
+        src: props.images[i],
+        width: 1000,
+        height: 1000,
+      },
+      enlargedImagePosition: 'over',
+      hoverDelayInMs: 250,
+      hoverOffDelayInMs: 150,
+    }}
+  />
 				</div>
 			))}
 		</Slider>

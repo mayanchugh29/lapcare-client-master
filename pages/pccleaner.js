@@ -1,24 +1,14 @@
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import Icon from "@material-ui/icons/SentimentVeryDissatisfied";
+import AccBreadcrumbs from "../src/components/common/breadcrumbs/AccBreadcrumbs";
 import { useRouter } from "next/router";
-import axios from "axios";
-
-import { useSelector } from 'react-redux'
 import {
 	Container,
 	Typography,
 	TextField,
 	Button,
 } from "@material-ui/core";
-
-import { Dialog, DialogContent, Slide, IconButton, useMediaQuery, FormControl } from "@material-ui/core";
-import CloseIcon from '@material-ui/icons/Close'
-
-
-
-const Transition = React.forwardRef(function Transition(props, ref) {
-    return <Slide direction="up" ref={ref} {...props} />;
-});
 
 
 const useStyles = makeStyles((theme) => ({
@@ -86,65 +76,17 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-export default function DownloadButton() {
+const serverErrorPage = () => {
+	const router = useRouter();
 
-    const [open, setOpen] = React.useState(false)
-    const [time, setTime] = React.useState(10)
-    const [iref, setIref] = React.useState(null)
-
-    const router = useRouter()
-    const classes = useStyles()
-
-    const token = useSelector((state) => state.authReducer.token);
-    const h600 = useMediaQuery('(max-height: 600px)')
-    const h500 = useMediaQuery('(max-height: 500px)')
-
-
-    const handleDownload = () => {
-        
-            setOpen(true)
-    }
-
-    const handleCancel = () => {
-        clearInterval(iref);
-        setIref(null)
-    }
-
-    // 
-    const [name, setName] = useState('');
+	const [name, setName] = useState('');
     const [nameError, setNameError] = useState('');
     const [email, setEmail] = useState('');
     const [emailError, setEmailError] = useState('');
     const [phone, setPhone] = useState('');
     const [phoneError, setPhoneError] = useState('');
 
-    const handleChange = (event) => {
-        const { value } = event.target;
-        if (event.target.id === "name") {
-          setName(value);
-          if (!/^[a-zA-Z]+$/.test(value)) {
-            setNameError('Please enter only alphabets.');
-          } else {
-            setNameError('');
-          }
-        } else if (event.target.id === "email") {
-          setEmail(value);
-          if (!/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/g.test(value)) {
-            setEmailError('Please enter a valid email address.');
-          } else {
-            setEmailError('');
-          }
-        } else if (event.target.id === "phone") {
-          setPhone(value);
-          if (!/^\d{10}$/g.test(value)) {
-            setPhoneError('Please enter a valid 10-digit phone number.');
-          } else {
-            setPhoneError('');
-          }
-        }
-      }
-
-    const handleSubmit=(e)=>{
+	const handleSubmit=(e)=>{
         e.preventDefault();
         //console.log(name,email,phone)
         const data={
@@ -161,22 +103,15 @@ export default function DownloadButton() {
         })
     }
 
-    return (
+	return (
         <>
-            <img src="/pccleaner.png" className={classes.root} onClick={handleDownload} />
-            <Dialog
-                open={open}
-                TransitionComponent={Transition}
-                scroll="body"
-            >
-                <button>
-                <IconButton size="small" className={classes.closeBtn} onClick={() => setOpen(false)}>
-                    <CloseIcon fontSize="inherit" />
-                </IconButton></button>
-                <DialogContent className={classes.dialog}>
+           
+            
+                
+		   <div style={{ display: 'grid', placeItems: 'center' }}>
                     <img
                         src="https://lapcareaws-static.s3.ap-south-1.amazonaws.com/lapscan/Lapscan+PC+Cleaner+popup+500+x+500.png"
-                        className={h500 ? 'h500' : (h600 ? 'h600' : '')}
+                        
                     />
                     
                     <div>
@@ -184,7 +119,7 @@ export default function DownloadButton() {
                    
                     <form autoComplete="off" onSubmit={handleSubmit}>
                                         <br />
-                                        <div class="form-group">
+                                        <div class="form-group" >
                                         <TextField id="name" label="Enter Your Name" variant="outlined" style={{width: "100%"}} required onChange={(e)=>setName(e.target.value)} value={name}/>
                                         </div><br />
                                         <div class="form-group">
@@ -199,8 +134,10 @@ export default function DownloadButton() {
                                         </div><br />
                                     </form>
                     </div>
-                </DialogContent>
-            </Dialog>
+                </div>
+            
         </>
     )
-}
+};
+
+export default serverErrorPage;
