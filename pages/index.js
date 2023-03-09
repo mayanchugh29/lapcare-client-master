@@ -15,6 +15,7 @@ import InstagramSection from "../src/components/home/InstagramSection";
 import PromotionalPopup from "../src/components/home/PromotionalPopup";
 
 const Home = (props) => {
+  const [open, setOpen] = useState(true); 
   return (
     <div>
       <meta
@@ -26,6 +27,7 @@ const Home = (props) => {
         content="fQ7PBz_xePrvCLdqWAeAvVh5VH4NGMOZTr9kr4XePLg"
       />
       
+      <PromotionalPopup open={open} setopen={setOpen} />
 
       <Box display="block" maxWidth="100%">
         <HomeBanner />

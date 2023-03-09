@@ -38,7 +38,7 @@ const PromotionalPopup = (props) => {
         >
             <img
       style={{ maxWidth: "100%"}}
-      src="https://lapcare-static.s3.ap-south-1.amazonaws.com/popup-prepiad%20discount.png"
+      src="https://lapcareaws-static.s3.ap-south-1.amazonaws.com/holicoupon.png"
       alt="image"
     />
         </Dialog>
