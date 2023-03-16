@@ -27,7 +27,7 @@ const Home = (props) => {
         content="fQ7PBz_xePrvCLdqWAeAvVh5VH4NGMOZTr9kr4XePLg"
       />
       
-      <PromotionalPopup open={open} setopen={setOpen} />
+      
 
       <Box display="block" maxWidth="100%">
         <HomeBanner />
