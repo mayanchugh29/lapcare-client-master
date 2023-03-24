@@ -87,6 +87,7 @@ export default function Header() {
         </Box>
 
         <Box width={11 / 12}>
+        {lapscan}
           {categories.map((category, i) => (
             <Product category={category} key={i} />
           ))}
@@ -110,8 +111,10 @@ export default function Header() {
 
     return (
       <Toolbar className={styles.toolbar}>
-        <div>{femmecubatorLogo}</div>
+       
+       <div>{femmecubatorLogo}</div>
         <div>
+          
           <AccountsDropdown />
           <Cart />
           <IconButton
@@ -163,6 +166,14 @@ export default function Header() {
           loading="eager"
           priority={true}
         />
+      </a>
+    </Link>
+  );
+
+  const lapscan = (
+    <Link href="https://lapscan.in/">
+      <a>
+      <span class="MuiButtonBase-root MuiButton-root MuiButton-text MenuDropdown_dropdown_toggle_btn__381rZ">Antivirus</span>
       </a>
     </Link>
   );
