@@ -80,6 +80,10 @@ const categories = [
 		name: "Anti-Virus",
 		values: ["Lapcare AV Pro", "Total Security", "Ultimate Security", "AV Pro"],
 	},
+	{
+		name: "Gaming",
+		values: ["Gaming Mouse", "Gaming Keyboard", "Gaming Combo"],
+	},
 ];
 
 const useStyles = makeStyles({
