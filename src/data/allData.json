@@ -104,6 +104,14 @@
 				},
 				{
 					"downloadsitem_id": 2,
+					"title": "LAPSCAN Antivirus Setup",
+					"subtitle": "Kindly click on the button to visit the Lapscan.in downloads page to download the setup for your choice of Antivirus software",
+					"subtitle2": "Minimum Software Requirement: Windows 7 and above",
+					"hreftext": "Downloads",
+					"href": "https://lapscan.in/pages/downloads"
+				},
+				{
+					"downloadsitem_id": 2,
 					"title": "LAPCARE PRODUCT CATALOUGE",
 					"subtitle": "Product Catalogue",
 					"hreftext": "Downloads",
@@ -171,55 +179,6 @@
 					"subtitle": "MOTHERBOARD LMB N68 MIX Drivers          ",
 					"hreftext": "Downloads",
 					"href": "https://betatest.lapcare.com/wp-content/uploads/2018/05/LMB%20N68%20MIX.zip"
-				},
-				{
-					"downloadsitem_id": 12,
-					"title": "LAPSCAN TOTAL SECURITY           ",
-					"subtitle": "Lapscan Total Security Antivirus Download",
-					"hreftext": "Downloads",
-					"href": "https://dl.msecuredatalabs.com/release_versions/2022-10-18/LapscanTS.exe"
-				},
-				{
-					"downloadsitem_id": 13,
-					"title": "Lapscan AV pro          ",
-					"subtitle": "Lapscan  AV pro Antivirus Download",
-					"hreftext": "Downloads",
-					"href": "https://dl.msecuredatalabs.com/release_versions/2022-07-08/LapscanAC.exe"
-				},
-				{
-					"downloadsitem_id": 14,
-					"title": "Lapscan Premia          ",
-					"subtitle": "Lapscan Premia Antivirus Download",
-					"hreftext": "Downloads",
-					"href": "https://dl.msecuredatalabs.com/release_versions/2022-09-02/LapscanPremia.exe"
-				},
-				{
-					"downloadsitem_id": 15,
-					"title": "Lapscan Ultima          ",
-					"subtitle": "Lapscan  Ultima Antivirus Download",
-					"hreftext": "Downloads",
-					"href": "https://dl.msecuredatalabs.com/release_versions/2022-09-02/LapscanUltima.exe"
-				},
-				{
-					"downloadsitem_id": 16,
-					"title": "Lapscan AV pro - Windows 7       ",
-					"subtitle": "Lapscan  AV pro Antivirus Download for Windows 7",
-					"hreftext": "Downloads",
-					"href": "https://dl.msecuredatalabs.com/release_versions/2022-07-08/LapscanACWin7.exe"
-				},
-				{
-					"downloadsitem_id": 17,
-					"title": "Lapscan Premia - Windows 7       ",
-					"subtitle": "Lapscan Premia Antivirus Download for Windows 7",
-					"hreftext": "Downloads",
-					"href": "https://dl.msecuredatalabs.com/release_versions/2022-09-02/LapscanPremia.exe"
-				},
-				{
-					"downloadsitem_id": 18,
-					"title": "Lapscan  AV pro - Windows 7       ",
-					"subtitle": "Lapscan  AV pro Antivirus Download for Windows 7",
-					"hreftext": "Downloads",
-					"href": "https://dl.msecuredatalabs.com/release_versions/2022-09-02/LapscanUltima.exe"
 				}
 				
 			]
