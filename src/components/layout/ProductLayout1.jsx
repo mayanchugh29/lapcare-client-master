@@ -35,9 +35,9 @@ export default function ProductLayout1(props) {
 					variant="contained"
 					size="small"
 					className={styles.buttonprod}
-					href={`/product/${encodeUrl(props.p_title)}/${props.sku}`}
+					href={`https://www.lapcare.com/collections/all?sort_by=title-ascending`}
 				>
-					Add To Cart
+					Browse Products
 				</Button>
 			</Box>
 		</Box>

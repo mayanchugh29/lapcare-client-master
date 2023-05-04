@@ -91,18 +91,25 @@ const ProductCard = ({ product,category }) => {
 				</Typography>
 				</div>
 				{product.avaiblity === 1 ? (
+					<a href="https://www.lapcare.com/collections/all?sort_by=title-ascending">
 					<Button
 						className={styles.addToCartButton}
 						color="primary"
 						variant="outlined"
-						onClick={() => handleAddToCart(product)}
+						
 					>
-						Add to Cart
-					</Button>
+						Browse Products
+					</Button></a>
 				) : (
-					<Button className={styles.addToCartButton} style={{ cursor: "not-allowed" }} variant="outlined">
-						Out of Stock
-					</Button>
+					<a href="https://www.lapcare.com/collections/all?sort_by=title-ascending">
+					<Button
+						className={styles.addToCartButton}
+						color="primary"
+						variant="outlined"
+						
+					>
+						Browse Products
+					</Button></a>
 				)}
 			</div>
 		</div>

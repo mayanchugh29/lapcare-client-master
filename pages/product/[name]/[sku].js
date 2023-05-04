@@ -205,19 +205,17 @@ const ProductSingle = (props) => {
 							</Box>
 							{data.avaiblity === 1 ? (
 								<div className={styles.action_buttons_container}>
-									<Button color="primary" variant="outlined" onClick={() => handleAddToCart()}>
-										Add to cart
-									</Button>
-
+									
+									<a href="https://www.lapcare.com/collections/all?sort_by=title-ascending">
 									<Button
 										color="primary"
 										variant="contained"
 										disableElevation
 										style={{ marginLeft: "1rem" }}
-										onClick={() => handleCheckout()}
+										
 									>
-										Buy Now
-									</Button>
+										Browse Products
+									</Button></a>
 								</div>
 							) : (
 								<div className={styles.action_buttons_container}>
@@ -323,16 +321,15 @@ const ProductSingle = (props) => {
 			) : null}
 			{data.avaiblity === 1 ? (
 				<div className={styles.action_buttons_container_sm}>
-					<div className={styles.action_button_sm} onClick={() => handleAddToCart()}>
-						<p>ADD TO CART</p>
-					</div>
+					
+					<a href="https://www.lapcare.com/collections/all?sort_by=title-ascending">
 					<div
 						className={styles.action_button_sm}
 						style={{ backgroundColor: "#fcc101", color: "white" }}
-						onClick={() => handleCheckout()}
+						
 					>
 						<p>BUY NOW</p>
-					</div>
+					</div></a>
 				</div>
 			) : (
 				<div className={styles.action_buttons_container_sm}>
