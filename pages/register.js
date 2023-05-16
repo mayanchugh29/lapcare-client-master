@@ -263,7 +263,7 @@ export default function RegisterProduct() {
 									/>
 								</div>
 								<div className={styles.inputField}>
-									<label htmlFor="file">Invoice Attach (Only pdf files are accepted)</label>
+									<label htmlFor="file">Invoice Attach (Only pdf files of size less than 1mb are accepted)</label>
 									<TextField
 									    inputProps={{accept:"application/pdf"}}
 										size="small"
