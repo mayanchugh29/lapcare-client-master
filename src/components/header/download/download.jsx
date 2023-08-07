@@ -163,7 +163,10 @@ export default function DownloadButton() {
 
     return (
         <>
-            <img src="/pccleaner.png" className={classes.root} onClick={handleDownload} />
+             < img src="/pccleaner.png" className={classes.root}
+      data-bm-widget-agent-id="8fe6fc3c-ba08-4667-9899-ada50e61f024"
+      data-bm-widget-context="VGhpcyBpcyBhIGJ1dHRvbiB0ZXN0Lgo="></img>
+    {/* <img src="/pccleaner.png" className={classes.root} onClick={handleDownload} />*/}
             <Dialog
                 open={open}
                 TransitionComponent={Transition}
