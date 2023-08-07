@@ -163,10 +163,13 @@ export default function DownloadButton() {
 
     return (
         <>
-             < img src="/pccleaner.png" className={classes.root}
+            <div className={classes.root}>
+             <button 
       data-bm-widget-agent-id="8fe6fc3c-ba08-4667-9899-ada50e61f024"
-      data-bm-widget-context="VGhpcyBpcyBhIGJ1dHRvbiB0ZXN0Lgo="></img>
-    {/* <img src="/pccleaner.png" className={classes.root} onClick={handleDownload} />*/}
+      data-bm-widget-context="VGhpcyBpcyBhIGJ1dHRvbiB0ZXN0Lgo=">
+      Click for Business Messages
+    </button></div>
+    {/* <img src="/pccleaner.png" className={classes.root} onClick={handleDownload} */}
             <Dialog
                 open={open}
                 TransitionComponent={Transition}
